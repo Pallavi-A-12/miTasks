@@ -5,7 +5,7 @@ function NavBar() {
       <div className="mx-auto flex max-w-6xl items-center px-4 py-4">
         
         <div className="text-2xl font-bold tracking-tight text-violet-800">
-          MiTasks
+          MiTasks...
         </div>
 
       </div>
