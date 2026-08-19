@@ -1,5 +1,7 @@
 
 import { useEffect, useState } from "react";
+
+import NavBar from "./components/NavBar";
 import TodoForm from "./components/TodoForm";
 import TodoList from "./components/TodoList";
 
@@ -60,12 +62,15 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-100 px-4 py-10">
-      <div className="mx-auto max-w-2xl">
+  <>
+    <NavBar />
+
+    <main className="min-h-screen bg-violet-50 px-4 pb-10 pt-28">
+      <div className="mx-auto flex min-h-[calc(100vh-7rem)] max-w-2xl flex-col justify-center">
 
         <div className="mb-8 text-center">
-          <h1 className="text-4xl font-bold text-slate-800">
-            My Todo List
+          <h1 className="text-4xl font-bold text-violet-950">
+            Welcome To MiTasks
           </h1>
 
           <p className="mt-2 text-slate-500">
@@ -83,7 +88,8 @@ function App() {
         />
 
       </div>
-    </div>
+    </main>
+  </>
   );
 }
 
