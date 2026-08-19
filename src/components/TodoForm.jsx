@@ -26,12 +26,12 @@ function TodoForm({ onAdd }) {
         value={task}
         onChange={(event) => setTask(event.target.value)}
         placeholder="Enter a new task..."
-        className="flex-1 rounded-lg border border-slate-200 px-4 py-3 text-slate-700 outline-none transition focus:border-blue-400 focus:ring-2 focus:ring-blue-100"
+        className="flex-1 rounded-lg border border-slate-200 px-4 py-3 text-slate-700 outline-none transition focus:border-violet-400 focus:ring-2 focus:ring-violet-100"
       />
 
       <button
         type="submit"
-        className="rounded-lg bg-blue-500 px-6 py-3 font-semibold text-white transition hover:bg-blue-600"
+        className="rounded-lg bg-violet-600 px-6 py-3 font-semibold text-white transition hover:bg-violet-700"
       >
         Add Task
       </button>

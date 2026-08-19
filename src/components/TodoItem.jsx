@@ -38,7 +38,7 @@ function TodoItem({
         type="checkbox"
         checked={todo.completed}
         onChange={() => onToggle(todo.id)}
-        className="h-5 w-5 cursor-pointer accent-blue-500"
+        className="h-5 w-5 cursor-pointer accent-violet-600"
       />
 
       {isEditing ? (
@@ -87,7 +87,7 @@ function TodoItem({
           <>
             <button
               onClick={() => setIsEditing(true)}
-              className="rounded-lg bg-blue-50 px-3 py-2 text-sm font-medium text-blue-600 hover:bg-blue-100"
+              className="rounded-lg bg-violet-50 px-3 py-2 text-sm font-medium text-violet-600 hover:bg-violet-100"
             >
               Edit
             </button>
