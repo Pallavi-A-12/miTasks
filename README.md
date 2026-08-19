@@ -1,16 +1,28 @@
-# React + Vite
+# MiTasks - Todo Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+MiTasks is a simple and responsive Todo application built using React.js and Tailwind CSS.
+It helps users manage their daily tasks easily.
 
-Currently, two official plugins are available:
+![Preview of the todo Application](/public/preview.jpeg)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Add new tasks
+- Edit existing tasks
+- Delete tasks
+- Mark tasks as completed
+- Display total and completed tasks
+- Save tasks using Local Storage
+- Responsive design
+- Clean and light user interface
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
 
-## Expanding the ESLint configuration
+- React.js
+- Tailwind CSS
+- JavaScript
+- Vite
+- HTML5
+- Local Storage
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
